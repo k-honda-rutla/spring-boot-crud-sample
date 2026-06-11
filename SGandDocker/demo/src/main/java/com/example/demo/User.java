@@ -16,4 +16,14 @@ public class User{
     public int getAge(){
         return age;
     }
+
+    // 追加Start UPDATE API追加対応
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    // 追加END   UPDATE API追加対応
+
 }
