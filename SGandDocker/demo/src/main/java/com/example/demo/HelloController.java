@@ -24,7 +24,8 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        return "Hello Spring Boot";
+        // return "Hello Spring Boot";
+        return "Version 1.0";
     }
 
     @GetMapping("/time")
