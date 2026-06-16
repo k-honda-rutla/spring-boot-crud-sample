@@ -24,8 +24,8 @@ public class HelloController {
 
     @GetMapping("/")
     public String hello() {
-        // return "Hello Spring Boot";
-        return "Version 1.0";
+        return "Hello Spring Boot";
+        // return "Version 1.0";
     }
 
     @GetMapping("/time")
@@ -35,7 +35,8 @@ public class HelloController {
 
     @GetMapping("/version")
     public String version() {
-        return "version 1.0";
+        //return "version 1.0";
+        return "version 1.1";
     }
 
     @GetMapping("/user")
